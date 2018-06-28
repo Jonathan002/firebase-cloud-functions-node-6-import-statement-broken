@@ -6,4 +6,4 @@ Broken Example for Firebase cloud functions..
 2. Go to firebaserc file and enter your firebase project-id
 3. Run "firebase deploy --only functions"
 
-It will error with import statements.
+The cloud functions parsing will error with import statements of node_modules since it is node 6
